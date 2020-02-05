@@ -1,0 +1,36 @@
+.list {
+    .container {
+        padding: 20px 0 16px 0; 
+    }
+    .counties {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+    .country {
+        display: flex;
+        &-wrapper {
+            display: inline-block;
+            padding-top: 2px;
+        }
+        &-img {
+            vertical-align: top;
+            padding-right: 11px;
+            width: 43px;
+            height: 32px;
+        }
+        &-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #242424;
+        }
+        &-descr {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #242424;
+        }
+    }
+}

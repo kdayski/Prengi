@@ -1,0 +1,21 @@
+@import "libs/fonts";
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "libs/slick";
+@import "base/variables";
+* {
+    font-family: 'Roboto', sans-serif;
+};
+.container {
+    margin: 0 auto;
+    padding: 0;
+};
+@import "blocks/list";
+@import "blocks/promo";
+@import "blocks/list-media";
+@import "blocks/promo-media";
+@import "blocks/logo-adap";
+@import "blocks/withPrengi";
+@import "blocks/withPrengi-media";
+@import "blocks/container";
+@import "blocks/mySlider";

@@ -1,0 +1,62 @@
+.withPrengi {
+    min-height: 896px;
+    .container {
+        padding: 79px 0 81px 0;
+        .col {
+            &-descr {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                top: 67%;
+                padding: 0px 55px;
+                width: 100%;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 1.44;
+                color: #393939;
+            }
+        }
+        .col-bold {
+            .col-descr {
+                font-weight: 700;
+            }
+        }
+        .firstLine {
+            padding-top: 60px;
+            width: 170px;
+            position: relative;
+            margin: 0 auto;
+            .left {
+                width: 50%;
+                transform: rotateZ(30deg);
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                color: #ececec;
+                border-style: solid;
+            }
+            .right {
+                width: 50%;
+                transform: rotateZ(150deg);
+                position: absolute;
+                left: 44%;
+                margin: 0;
+                padding: 0;
+                color: #ececec;
+                border-style: solid;
+            }
+        }
+        .secondLine {
+            padding-top: 20px;
+        }
+        .prengi {
+            padding: 15px 0;
+            text-align: center;
+            padding-top: 33px;
+            font-size: 48px;
+            font-weight: 700;
+            color: #393939;
+        }
+    }
+}

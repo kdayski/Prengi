@@ -1,0 +1,44 @@
+@media (max-width: 1199px) {
+    .list {
+        .country {
+            &-descr {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .list {
+        .country {
+            &-wrapper {
+                padding: 0;
+            }
+            align-items: center;
+            &-descr {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .list {
+        .country {
+            &-name {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        margin: 0 20px;
+    }
+    .list {
+        width: 100%;
+        .country {
+            &-name {
+                display: none;
+            }
+        }
+    }
+}
