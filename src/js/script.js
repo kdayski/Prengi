@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', function () {
 	right.addEventListener('click', function() {
 		plusSlide(1);
 	});
-
+	
 	function currentSlide(n) {
         showSlide(slideIndex = n);
     }
@@ -64,5 +64,5 @@ window.addEventListener('DOMContentLoaded', function () {
                 currentSlide(i);
             }
         }
-    });
+	});
 });
