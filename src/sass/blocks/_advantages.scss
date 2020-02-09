@@ -95,8 +95,10 @@
     }
 }
 @media (max-width: 576px) {
+    .advantages .container {max-width: 100%;}
     .advantages .container {
-        padding: 50px 0;
+        padding-top: 50px;
+        padding-bottom: 0;
     }
     .advantages_title {
         font-size: 21px;
